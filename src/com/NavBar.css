@@ -108,33 +108,34 @@ nav{
     right: 50px;
      
    } 
+   
 }
 
 
 @media (max-width:400px){
     #link1{
         position: relative;
-        left: -60px;
+        left: -50px;
       
        
       }
     #link2{
      display: inline-block;
     position: relative;
-    left: -390px;
+    left: -300px;
     
    }
    #link4{
     display: inline-block;
    position: relative;
-   left: -390px;
+   left: -300px;
     
   }
 
   #link3{
     display: inline-block;
    position: relative;
-   left: -390px;
+   left: -300px;
    right: 50px;
     
   }
