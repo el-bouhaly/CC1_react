@@ -10,7 +10,7 @@
     align-items: center;
     outline: none;
     position: fixed;
-    
+    background-color: blue;
 }
 
 .dark-btn {
@@ -55,7 +55,7 @@
     .btn-toggle {
         position: relative;
         top: 250px;
-        left: 260px;
+        left: 250px;
         border-radius: 50%;
         width: 75px;
         height: 75px;
