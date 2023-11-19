@@ -1,0 +1,143 @@
+ #link1{
+    position: relative;
+    top: 15px;
+    height: 1px;
+    display:inline-block;
+    padding-top: 0px;
+}
+#link4{
+    position: relative;
+    left: 90px;
+    top: 15px;
+    display:inline-block;
+    height: 1px;
+    padding-top: 0px;
+    
+}
+#link3{
+    position: relative;
+    left: 90px;
+    top: 15px;
+    height: 1px;
+    display:inline-block;
+    padding-top: 0px;
+}
+#link2{
+    position: relative;
+    left: 90px;
+    top: 15px;
+    height: 1px;
+    display:inline-block;
+    padding-top: 0px;
+} 
+ 
+
+.nav-top {
+   
+    
+    background-color: rgb(11, 11, 123);
+    border-radius: 8px;
+    padding: 0px 400px 40px;
+    margin-top: 0px;
+    position: fixed;
+    right: 90px;
+    top: 0px;
+    left: 0px;
+    
+   }
+   
+   .nav-top a {
+       font-size: 22px;
+        text-decoration: none;
+        color: #f1f1f1;
+        padding: 40px 40px;
+    
+       }
+nav{
+    width: 100%;
+}
+.div22{
+    display:inline;
+    position: relative;
+    left: 170px;
+    top: 10px;
+    
+    
+}
+.div11{
+    display: inline;
+    height: 40px;
+    position: relative;
+    right: 340px;
+    top: 10px;
+    
+    
+}
+
+@media (max-width:1199px){
+    .div22{
+    display: block;
+   
+   } 
+}
+@media (max-width:732px){
+    #link1{
+        position: relative;
+        left: -50px;
+      
+       
+      }
+    #link2{
+     display: inline-block;
+    position: relative;
+    left: -330px;
+    
+   }} 
+   @media (max-width:732px){
+    #link4{
+     display: inline-block;
+    position: relative;
+    left: -330px;
+     
+   }} 
+   @media (max-width:732px){
+    #link3{
+     display: inline-block;
+    position: relative;
+    left: -330px;
+    right: 50px;
+     
+   } 
+}
+
+
+@media (max-width:400px){
+    #link1{
+        position: relative;
+        left: -60px;
+      
+       
+      }
+    #link2{
+     display: inline-block;
+    position: relative;
+    left: -390px;
+    
+   }
+   #link4{
+    display: inline-block;
+   position: relative;
+   left: -390px;
+    
+  }
+
+  #link3{
+    display: inline-block;
+   position: relative;
+   left: -390px;
+   right: 50px;
+    
+  }
+
+} 
+  
