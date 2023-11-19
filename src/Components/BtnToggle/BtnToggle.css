@@ -3,19 +3,20 @@
     top: 90px;
     right: 10px;
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     outline: none;
     position: fixed;
-    background-color: blue;
+    
 }
 
 .dark-btn {
-    background: #222;
-    color: #f1f1f1;
+    background:#f1f1f1;
+    color:black;
+    
 }
 @media (max-width:1199px){
     .btn-toggle {
@@ -37,11 +38,11 @@
 @media (max-width:732px){
     .btn-toggle {
         position: relative;
-        top: 250px;
-        left: 360px;
+        top: 260px;
+        left: 590px;
         border-radius: 50%;
-        width: 75px;
-        height: 75px;
+        width: 59px;
+        height: 59px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -54,11 +55,11 @@
    @media (max-width:400px){
     .btn-toggle {
         position: relative;
-        top: 250px;
+        top: 264px;
         left: 250px;
         border-radius: 50%;
-        width: 75px;
-        height: 75px;
+        width: 53px;
+        height: 53px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -68,4 +69,4 @@
     }
     
    }
-  
+   

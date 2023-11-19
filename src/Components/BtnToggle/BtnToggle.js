@@ -10,7 +10,7 @@ export default function BtnToggle() {
         <button 
         onClick={toggleTheme}
         className={theme ? "btn-toggle dark-btn" : "btn-toggle"}>
-            {theme ? "LIGHT" : "DARK"}
+            {theme ? "Light" : "dark"}
         </button>
     )
 }
